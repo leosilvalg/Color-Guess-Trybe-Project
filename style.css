@@ -46,7 +46,7 @@ body {
 }
 
 #reset-game {
-  font-size: 18px;
+  font-size: 25px;
   margin-top: 20px;
   border-radius: 20px;
   font-weight: 600;
@@ -55,6 +55,7 @@ body {
 
 #reset-game:hover {
   background-color: antiquewhite;
+  font-size: 30px;
 }
 
 #easy {
@@ -67,6 +68,7 @@ body {
 
 #easy:hover {
   background-color: antiquewhite;
+  border: 2px solid black;
 }
 
 #hard {
@@ -82,7 +84,7 @@ body {
 }
 
 #score {
-  font-size: 25px;
+  font-size: 30px;
   padding: 20px;
 }
 
