@@ -13,10 +13,6 @@ body {
   padding: 15px;
 }
 
-#rgb-color {
-  font-size: 30px;
-  padding: 15px;
-}
 
 .ball {
   border-radius: 50%;
@@ -36,8 +32,9 @@ body {
 }
 
 #rgb-color {
-  font-size: 20px;
+  font-size: 30px;
   font-family: sans-serif;
+  padding: 15px;
 }
 
 #answer {
@@ -55,32 +52,7 @@ body {
 
 #reset-game:hover {
   background-color: antiquewhite;
-  font-size: 30px;
-}
-
-#easy {
-  font-size: 18px;
-  margin-top: 20px;
-  border-radius: 20px;
-  font-weight: 600;
-  border: 2px solid black;
-}
-
-#easy:hover {
-  background-color: antiquewhite;
-  border: 2px solid black;
-}
-
-#hard {
-  font-size: 18px;
-  margin-top: 20px;
-  border-radius: 20px;
-  font-weight: 600;
-  border: 2px solid black;
-}
-
-#hard:hover {
-  background-color: antiquewhite;
+  font-size: 29px;
 }
 
 #score {
@@ -90,4 +62,17 @@ body {
 
 .selecionada {
   background-color: red;
+}
+
+#reset {
+  font-size: 25px;
+  margin-top: 20px;
+  border-radius: 20px;
+  font-weight: 600;
+  border: 2px solid black;
+}
+
+#reset:hover {
+  background-color: antiquewhite;
+  font-size: 29px;
 }

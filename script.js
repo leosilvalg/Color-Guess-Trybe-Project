@@ -4,8 +4,7 @@ const texto = document.getElementById('answer');
 const reset = document.querySelector('#reset-game'); 
 const pontuacao = document.querySelector('#score'); 
 let score = 0;
-const easy = document.querySelector('#easy');
-const hard = document.querySelector('#hard');
+const novoJogo = document.querySelector('#reset');
 const numero = 6
 
 
@@ -39,6 +38,11 @@ function escolha() {
 }
 window.onload = escolha;
 
+function novo () {
+  window.location.reload();
+}
+novoJogo.addEventListener('click', novo);
+
 function answer(event) {
   const evT = event.target;
   const corDeFundo = cor.innerText;
@@ -58,5 +62,6 @@ function resetar() {
   texto.innerHTML = 'Choose a color!';
   pintaFundo();
 }
-
 reset.addEventListener('click', resetar);
+
+
